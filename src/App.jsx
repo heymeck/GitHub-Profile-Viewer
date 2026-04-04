@@ -24,7 +24,7 @@ let [btnClick,setBtnClick]=useState(false);
   } catch (error) {
     console.log(error)
   }}
-console.log("the search button is clicked and the value is :",btnClick)
+// console.log("the search button is clicked and the value is :",btnClick)
 
 
 
