@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const Card = (data) => {
-  console.log("card is rendered");
 
-  // console.log("data in card",data)
   let {
     data: {
       name,
@@ -18,7 +16,6 @@ const Card = (data) => {
       html_url: profile,
     },
   } = data;
-  // console.log(image)
 
   return (
     <div className="card w-1/3 max-w-[fit]   sm:w-fit h-3/4 bg-blue-400 mx-auto min-h-fit rounded-2xl p-2 flex sm:flex-row flex-col gap-5 sm:justify-center sm:items-center w-fit items-center">

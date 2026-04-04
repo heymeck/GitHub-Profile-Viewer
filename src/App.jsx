@@ -3,7 +3,6 @@ import NavBar from "./NavBar";
 import Card from "./Card";
 
 function App() {
-  console.log("app is rendered")
   
  let [value,setValue]=useState("")
 
